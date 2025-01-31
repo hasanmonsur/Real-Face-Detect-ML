@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Logs and debug files
+*.log
+logs/
+debug.log
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Django/Flask settings and secret files
+*.sqlite3
+instance/
+config.py
+.env
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Keep dataset folder but ignore everything inside it except `.keep`
+kaggle/*
